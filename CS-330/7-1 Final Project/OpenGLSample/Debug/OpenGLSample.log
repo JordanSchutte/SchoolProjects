@@ -1,0 +1,26 @@
+﻿  glad.c
+  shader.cpp
+  Source.cpp
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\shader.h(57,34): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Source.cpp')
+  
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(196,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(231,52): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(232,55): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(239,52): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(240,55): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(247,52): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(248,55): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(255,52): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(256,55): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(264,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(265,50): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(367,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(368,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(372,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(373,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(375,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(376,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\OpenGLSample\OpenGLSample\Source.cpp(385,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'opengl32.lib'

@@ -1,0 +1,20 @@
+﻿  glad.c
+  shader.cpp
+  Source.cpp
+C:\Users\Jordan\Downloads\7-1 Final Project\OpenGLSample\Source.cpp(247,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\7-1 Final Project\OpenGLSample\Source.cpp(364,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\7-1 Final Project\OpenGLSample\Source.cpp(365,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\7-1 Final Project\OpenGLSample\Source.cpp(369,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\7-1 Final Project\OpenGLSample\Source.cpp(370,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\7-1 Final Project\OpenGLSample\Source.cpp(372,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\7-1 Final Project\OpenGLSample\Source.cpp(373,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\7-1 Final Project\OpenGLSample\Source.cpp(537,23): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Jordan\Downloads\7-1 Final Project\OpenGLSample\Source.cpp(663,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\7-1 Final Project\OpenGLSample\Source.cpp(750,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jordan\Downloads\7-1 Final Project\OpenGLSample\Source.cpp(751,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  552 of 569 functions (97.0%) were compiled, the rest were copied from previous compilation.
+    7 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  OpenGLSample.vcxproj -> C:\Users\Jordan\Downloads\7-1 Final Project\Release\OpenGLSample.exe

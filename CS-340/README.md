@@ -10,7 +10,7 @@ Geolocation and pie charts that dynamically respond to filtering options.
 Inclusion of the Grazioso Salvare logo and a unique identifier.
 
 Initial state:
-
+<image>
 
 Water rescue:
 <image>

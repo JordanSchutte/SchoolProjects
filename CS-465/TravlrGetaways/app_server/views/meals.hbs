@@ -1,0 +1,24 @@
+{{> header }}
+<div id="contents">
+    <div class="box">
+        <div>
+            <div class="body">
+                <h1>Meals</h1>
+                <ul id="foods">
+                    {{#each meals}}
+                    <li>
+                        <h2><a href="meals.html">{{this.title}}</a></h2>
+                        <div class="infos">
+                            <a href="meals.html"><img src="{{this.image}}" alt="{{this.title}}"><span class="cover"></span></a>
+                            <p>
+                                <span>{{this.title}}</span> {{this.description}}
+                            </p>
+                        </div>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{{> footer }}

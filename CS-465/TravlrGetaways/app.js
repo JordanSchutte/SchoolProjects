@@ -1,16 +1,20 @@
 const express = require('express');
 const path = require('path');
+const hbs = require('hbs');
 const app = express();
-const port = 3000;
 
+// Set up view engine
+app.set('view engine', 'hbs');
+app.set('views', path.join(__dirname, 'app_server', 'views'));
+hbs.registerPartials(path.join(__dirname, 'app_server', 'views', 'partials'));
+
+// Routes
+app.use('/', require('./app_server/routes/index'));
+
+// Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.set('view engine', 'hbs');
-app.set('views', './app_server/views');
-
-const routes = require('./app_server/routes/index');
-app.use('/', routes);
-
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
-  console.log(`Travlr Getaways app listening at http://localhost:${port}`);
+  console.log(`Server running on port ${port}`);
 });

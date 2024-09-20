@@ -1,0 +1,23 @@
+{
+  "title": "Rooms - Travlr Getaways",
+  "rooms": [
+    {
+      "name": "First Class Room",
+      "image": "images/first-class.jpg",
+      "description": "Experience luxury at its finest in our First Class Room. Featuring stunning views, premium amenities, and spacious living areas, this room is perfect for those seeking the ultimate in comfort and style.",
+      "rate": "220 / Day"
+    },
+    {
+      "name": "Deluxe Room",
+      "image": "images/deluxe.jpg",
+      "description": "Our Deluxe Room offers a perfect blend of comfort and elegance. With modern furnishings, a cozy atmosphere, and all the essential amenities, it's ideal for both leisure and business travelers.",
+      "rate": "150 / Day"
+    },
+    {
+      "name": "Suite Room",
+      "image": "images/suite.jpg",
+      "description": "Indulge in the spacious luxury of our Suite Room. Featuring separate living and sleeping areas, premium furnishings, and exclusive amenities, it's the perfect choice for an extended stay or special occasion.",
+      "rate": "180 / Day"
+    }
+  ]
+}

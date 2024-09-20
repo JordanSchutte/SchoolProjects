@@ -1,0 +1,24 @@
+{
+  "title": "News - Travlr Getaways",
+  "latestNews": [
+    "2023 Best Beaches Contest Winners",
+    "Top 10 Diving Spots",
+    "Fishing ban to be implemented this year",
+    "Lifeguard saves child from drowning"
+  ],
+  "vacationTips": [
+    "What to bring on the beach?",
+    "Planning Fun Activities",
+    "Diving Checklist",
+    "First Aid",
+    "How to Build a Sand Castle?",
+    "Tanning Tips"
+  ],
+  "featuredArticle": {
+    "title": "Experience Kayaking!",
+    "image": "images/kayak.jpg",
+    "date": "April 03, 2023",
+    "author": "Juan De La Cruz",
+    "content": "Embark on an exciting kayaking adventure with Travlr Getaways! Our expert guides will take you through crystal-clear waters, allowing you to explore hidden coves and witness breathtaking coastal scenery. Whether you're a beginner or an experienced kayaker, our tours offer something for everyone. Discover the joy of paddling, connect with nature, and create unforgettable memories on the water. Book your kayaking experience today and add a thrilling dimension to your beach getaway!"
+  }
+}

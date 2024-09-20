@@ -1,0 +1,35 @@
+{{> header }}
+<div id="contents">
+    <div class="box">
+        <div>
+            <div id="news" class="body">
+                <div class="sidebar">
+                    <h3>Latest News</h3>
+                    <ul>
+                        {{#each latestNews}}
+                        <li>
+                            <a href="news.html">{{this}}</a>
+                        </li>
+                        {{/each}}
+                    </ul>
+                    <h3>Vacation Tips</h3>
+                    <ul>
+                        {{#each vacationTips}}
+                        <li>
+                            <a href="news.html">{{this}}</a>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+                <div>
+                    <h1>News</h1>
+                    <img src="{{featuredArticle.image}}" alt="{{featuredArticle.title}}">
+                    <h2>{{featuredArticle.title}}</h2>
+                    <span class="time">{{featuredArticle.date}}<br> by: {{featuredArticle.author}}</span>
+                    <p>{{featuredArticle.content}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{> footer }}

@@ -1,2 +1,44 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+{{> header }}
+<div id="contents">
+    <div id="adbox">
+        <img src="{{heroImage.src}}" alt="{{heroImage.alt}}">
+        <h1>{{heroContent.heading}}</h1>
+        <p>{{heroContent.text}}</p>
+    </div>
+    <div id="main">
+        <div class="box">
+            <div>
+                <div>
+                    <h3>Latest Blog</h3>
+                    <ul>
+                        {{#each latestBlogs}}
+                        <li>
+                            <h4><a href="{{this.link}}">{{this.title}}</a></h4>
+                            <span>{{this.date}}</span>
+                            <p>{{this.excerpt}}</p>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="testimonials" class="box">
+            <div>
+                <div>
+                    <h3>Testimonials</h3>
+                    <p>
+                        "{{testimonial.quote}}" <span>- <a href="index.html">{{testimonial.author}}</a></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sidebar">
+        {{#each sidebarImages}}
+        <div class="section">
+            <a href="{{this.link}}"><img src="{{this.src}}" alt="{{this.alt}}"></a>
+        </div>
+        {{/each}}
+    </div>
+</div>
+{{> footer }}

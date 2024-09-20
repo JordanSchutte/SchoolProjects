@@ -1,0 +1,46 @@
+{
+    "title": "Travlr Getaways Website",
+    "heroImage": {
+      "src": "images/sea-sound.jpg",
+      "alt": "Beautiful beach scene"
+    },
+    "heroContent": {
+      "heading": "Enjoy the Summer with Us!",
+      "text": "Discover breathtaking beaches, luxurious accommodations, and unforgettable experiences with Travlr Getaways. Your perfect vacation starts here!"
+    },
+    "latestBlogs": [
+      {
+        "title": "2023 Best Beaches Contest Winners",
+        "link": "news.html",
+        "date": "April 02, 2023",
+        "excerpt": "We're excited to announce the winners of our 2023 Best Beaches Contest! From pristine white sands to crystal-clear waters, these top-rated beaches offer the ultimate tropical getaway..."
+      },
+      {
+        "title": "Top 10 Diving Spots",
+        "link": "news.html",
+        "date": "May 29, 2023",
+        "excerpt": "Calling all diving enthusiasts! We've compiled a list of the world's top 10 diving spots. Whether you're a beginner or an experienced diver, these underwater paradises will take your breath away..."
+      }
+    ],
+    "testimonial": {
+      "quote": "Our stay with Travlr Getaways was absolutely magical. The staff went above and beyond, the accommodations were luxurious, and the beaches were straight out of a postcard. We can't wait to return!",
+      "author": "Juan De La Cruz"
+    },
+    "sidebarImages": [
+      {
+        "src": "images/rooms.png",
+        "alt": "Luxurious Rooms",
+        "link": "rooms.html"
+      },
+      {
+        "src": "images/dive-site.png",
+        "alt": "Exciting Dive Sites",
+        "link": "dives.html"
+      },
+      {
+        "src": "images/food.png",
+        "alt": "Delicious Local Cuisine",
+        "link": "foods.html"
+      }
+    ]
+  }

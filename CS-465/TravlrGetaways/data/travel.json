@@ -1,0 +1,20 @@
+{
+  "title": "Travel - Travlr Getaways",
+  "trips": [
+    {
+      "name": "Gale Reef",
+      "image": "images/reef1.jpg",
+      "description": "Experience the vibrant marine life at this stunning coral reef. Perfect for snorkeling and diving enthusiasts, with crystal clear waters and a diverse ecosystem."
+    },
+    {
+      "name": "Dawson's Reef",
+      "image": "images/reef2.jpg",
+      "description": "A hidden gem known for its tranquil waters and abundant sea turtles. Ideal for underwater photography and peaceful swims in nature's aquarium."
+    },
+    {
+      "name": "Claire's Reef",
+      "image": "images/reef3.jpg",
+      "description": "Discover this colorful underwater paradise, home to exotic fish species and intricate coral formations. A must-visit for both beginner and experienced divers."
+    }
+  ]
+}

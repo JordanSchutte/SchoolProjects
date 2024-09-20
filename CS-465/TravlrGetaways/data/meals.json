@@ -1,0 +1,20 @@
+{
+  "title": "Meals - Travlr Getaways",
+  "meals": [
+    {
+      "title": "SeaFood Special",
+      "image": "images/seafoods.jpg",
+      "description": "Fried Salmon Special: Indulge in our exquisite seafood dishes, featuring the freshest catch of the day. Our chefs prepare each meal with passion, ensuring a delightful culinary experience for our guests."
+    },
+    {
+      "title": "Sumptuous Desserts",
+      "image": "images/desserts.jpg",
+      "description": "Choco Ice Cream Sandwich: Satisfy your sweet tooth with our array of delectable desserts. From rich chocolate creations to fruity delights, we have something to please every palate."
+    },
+    {
+      "title": "Buffet",
+      "image": "images/buffet.jpg",
+      "description": "Mixed Buffet: Experience a world of flavors at our extensive buffet. With a wide variety of dishes from different cuisines, you'll find something new and exciting with every visit."
+    }
+  ]
+}

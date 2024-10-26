@@ -1,0 +1,11 @@
+<div class="card">
+  <img [src]="trip.image" class="card-img-top" [alt]="trip.name">
+  <div class="card-body">
+    <h5 class="card-title">{{ trip.name }}</h5>
+    <p class="card-text">{{ trip.description }}</p>
+    <p>Length: {{ trip.length }}</p>
+    <p>Price: {{ trip.perPerson | currency }}</p>
+    <a [routerLink]="['/trip', trip.code]" class="btn btn-primary mr-2">View Details</a>
+    <button *ngIf="isLoggedIn()" (click)="editTrip(trip.code)" class="btn btn-secondary">Edit Trip</button>
+  </div>
+</div>

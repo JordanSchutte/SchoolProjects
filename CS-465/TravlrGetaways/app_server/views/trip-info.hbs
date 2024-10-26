@@ -1,0 +1,18 @@
+{{> header }}
+<div id="contents">
+    <div class="box">
+        <div>
+            <div class="body">
+                <h1>{{trip.name}}</h1>
+                <img src="/{{trip.image}}" alt="{{trip.name}}">
+                <p>{{trip.description}}</p>
+                <p><strong>Length:</strong> {{trip.length}}</p>
+                <p><strong>Start Date:</strong> {{trip.start}}</p>
+                <p><strong>Resort:</strong> {{trip.resort}}</p>
+                <p><strong>Price per Person:</strong> {{trip.perPerson}}</p>
+                <a href="/travel">Back to All Trips</a>
+            </div>
+        </div>
+    </div>
+</div>
+{{> footer }}

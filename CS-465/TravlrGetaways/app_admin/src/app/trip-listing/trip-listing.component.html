@@ -1,0 +1,12 @@
+<h2>Trip Listings</h2>
+<div *ngIf="message" class="alert alert-info">{{ message }}</div>
+
+<div *ngIf="isLoggedIn()">
+  <a routerLink="/add-trip" class="btn btn-primary mb-3">Add Trip</a>
+</div>
+
+<div class="row">
+  <div *ngFor="let trip of trips" class="col-md-4 mb-3">
+    <app-trip-card [trip]="trip"></app-trip-card>
+  </div>
+</div>

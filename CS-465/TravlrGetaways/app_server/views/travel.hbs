@@ -3,16 +3,24 @@
     <div class="box">
         <div>
             <div class="body">
-                <h1>Travel</h1>
-                <ul id="sites">
-                    {{#each trips}}
-                    <li>
-                        <a href="travel"><img src="{{this.image}}" alt="{{this.name}}"></a>
-                        <h2><a href="travel">{{this.name}}</a></h2>
-                        <p>{{this.description}}</p>
-                    </li>
-                    {{/each}}
-                </ul>
+                <h1>{{title}}</h1>
+                {{#if message}}
+                    <p>{{message}}</p>
+                {{else}}
+                    <ul id="sites">
+                        {{#each trips}}
+                        <li>
+                            <a href="/travel/{{this.code}}"><img src="{{this.image}}" alt="{{this.name}}"></a>
+                            <h2><a href="/travel/{{this.code}}">{{this.name}}</a></h2>
+                            <p>{{this.description}}</p>
+                            <p>Length: {{this.length}}</p>
+                            <p>Start Date: {{this.start}}</p>
+                            <p>Resort: {{this.resort}}</p>
+                            <p>Price per Person: {{this.perPerson}}</p>
+                        </li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
             </div>
         </div>
     </div>
